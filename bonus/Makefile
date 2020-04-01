@@ -1,6 +1,6 @@
 NAME = sudoku
 
-SRC = *.c
+SRC = ../ft_*.c main2.c
 
 all:
 	gcc -Wall -Wextra -Werror -o $(NAME) $(SRC)

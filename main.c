@@ -69,5 +69,5 @@ int	main(int argc, char **argv)
 	}
 	else
 		ft_putstr("Error\n");
-		return (0);
+	return (0);
 }

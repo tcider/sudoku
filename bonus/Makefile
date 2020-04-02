@@ -1,9 +1,11 @@
 NAME = sudoku
 
-SRC = ../ft_*.c main2.c
+SRC = *.c
 
 all:
 	gcc -Wall -Wextra -Werror -o $(NAME) $(SRC)
 
 clean:
-	/bin/rm -f $(NAME) 
+	/bin/rm -f $(NAME)
+
+re: clean all

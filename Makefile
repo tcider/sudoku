@@ -6,4 +6,4 @@ all:
 	gcc -Wall -Wextra -Werror -o $(NAME) $(SRC)
 
 clean:
-	/bin/rm -f $(NAME) 
+	/bin/rm -f $(NAME)
